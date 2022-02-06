@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="loading dark-layout" lang="en" data-layout="dark-layout" data-textdirection="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description" content="Restfull Api Gratis Sedunia">
+    <meta name="keywords" content="HandraMz, Api, Rest Api, Free Api, Restfull API, Web Api">
+    <meta name="author" content="HandraMz">
+    <title>HandraMz - Register</title>
+    <link rel="apple-touch-icon" href="../images/icon.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.jpg">
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+    <script src="../jquery-2.2.1.min.js"></script>
+    <script src="../downloads/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="../vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/css/extensions/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/components.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/themes/dark-layout.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/core/menu/menu-types/vertical-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/plugins/extensions/ext-component-toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/plugins/extensions/ext-component-sweet-alerts.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/pages/authentication.css">
+</head>
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <div class="auth-wrapper auth-basic px-2">
+                    <div class="auth-inner my-2">
+                        <!-- Register basic -->
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <a href="../user/register.html" class="brand-logo">
+                                    <h2 class="brand-text text-primary ms-1">HandraMz REGISTER</h2>
+                                </a>
+                                <form class="auth-register-form mt-2" action="../user/register.html" method="POST">
+                                    <div class="mb-1">
+                                        <label for="register-username" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="register-username" name="firstName" placeholder="Zahwa" tabindex="1" autofocus required />
+                                    </div>
+                                    <div class="mb-1">
+                                        <label for="register-username" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="register-username" name="lastName" placeholder="Zein" aria-describedby="register-username" tabindex="1" autofocus required />
+                                    </div>
+                                    <div class="mb-1">
+                                        <label for="register-username" class="form-label">Username</label>
+                                        <input type="text" onkeypress="return /[0-9a-zA-Z]/i.test(event.key)" onkeypress="return alpha(event)" class="form-control" id="username" name="userName" placeholder="zahwazein" aria-describedby="register-username" tabindex="1" autofocus required />
+                                    </div>
+                                    <div class="mb-1">
+                                        <label for="register-email" class="form-label">Email</label>
+                                        <input type="text" class="form-control" id="register-email" name="email" placeholder="handramzins@gmail.com" aria-describedby="register-email" tabindex="2" required />
+                                    </div>
+                                    <div class="mb-1">
+                                        <label for="register-password" class="form-label">Password</label>
+                                        <div class="input-group input-group-merge form-password-toggle">
+                                            <input type="password" class="form-control form-control-merge" id="register-password" name="password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="register-password" tabindex="3" required />
+                                            <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="mb-1">
+                                        <label for="register-password" class="form-label">Confirm assword</label>
+                                        <div class="input-group input-group-merge form-password-toggle">
+                                            <input type="password" class="form-control form-control-merge" id="register-password" name="confirmPassword" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="register-password" tabindex="3" required />
+                                            <span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="mb-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="register-privacy-policy" tabindex="4" />
+                                            <label class="form-check-label" for="register-privacy-policy"> I agree to <a href="#">privacy policy & terms</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-1">
+                                        <div class="g-recaptcha text-center" data-sitekey="6LdRQjYbAAAAAE_Erc95FANBoOcdfLbnsZ3Uji-1"></div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100" tabindex="5">Sign up</button>
+                                </form>
+                                <p class="text-center mt-2">
+                                    <span>Already have an account?</span>
+                                    <a href="../user/login.html">
+                                        <span>Sign in</span>
+                                    </a>
+                                </p>
+                                <p class="text-center">
+                                    <span>Activate an account?</span>
+                                    <a href="verification.html">
+                                        <span>Verification</span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /Register basic -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="../vendors/js/vendors.min.js"></script>
+    <script src="../vendors/js/forms/validation/jquery.validate.min.js"></script>
+    <script src="../js/core/app-menu.min.js"></script>
+    <script src="../js/core/app.min.js"></script>
+    <script src="../js/scripts/pages/auth-login.js"></script>
+    <script>
+    $(window).on('load', function() {
+        if (feather) {
+            feather.replace({
+                width: 14,
+                height: 14
+            });
+        }
+    })
+    </script>
+    <script>
+        function alpha(e) {
+    var k;
+    document.all ? k = e.keyCode : k = e.which;
+    return ((k > 64 && k < 91) || (k > 96 && k < 123) || k == 8 || k == 32 || (k >= 48 && k <= 57));
+}
+    </script>
+    <script>
+        $("#username").keypress(function(event) {
+    var character = String.fromCharCode(event.keyCode);
+    return isValid(character);     
+});
+function isValid(str) {
+    return !/[~`!@#$%\^&*()+=\-\[\]\\';,/{}|\\":<>\?]/g.test(str);
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,656 @@
+<!-- 
+MO NGAPAIN SI KONTOL
+-->
+<!DOCTYPE html>
+<html class="loading dark-layout" lang="en" data-layout="dark-layout" data-textdirection="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description" content="Restfull Api Gratis Sedunia">
+    <meta name="keywords" content="HandraMz, Api, Rest Api, Free Api, Restfull API, Web Api">
+    <meta name="author" content="HandraMz">
+    <meta name="google-site-verification" content="u-sCEkZKnp4PwkwdYt_nCjqqa_hLgRuV2ilJTG9q2-s" />
+    <title>HandraMz - Rest Api Free</title>
+    <link rel="apple-touch-icon" href="images/icon.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.jpg">
+    <link rel="stylesheet" href="ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+    <script src="downloads/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/extensions/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="css/components.min.css">
+    <link rel="stylesheet" type="text/css" href="css/themes/dark-layout.min.css">
+    <link rel="stylesheet" type="text/css" href="css/core/menu/menu-types/vertical-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/extensions/ext-component-toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/extensions/ext-component-sweet-alerts.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/page-profile.min.css">
+</head>
+<body class="vertical-layout vertical-menu-modern" data-open="click" data-menu="vertical-menu-modern" data-col="">
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav navbar-dark navbar-shadow container-xxl">
+        <div class="navbar-container d-flex content">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item"><a class="nav-link menu-toggle" href="#"><i class="ficon" data-feather="menu"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav bookmark-icons">
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon" data-feather="sun"></i></a></li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav align-items-center ms-auto">
+                <form action="search.html" method="GET">
+                    <li class="nav-item nav-search">
+                        <a class="nav-link nav-link-search"><i class="ficon" data-feather="search"></i></a>
+                        <div class="search-input">
+                            <div class="search-input-icon"><i data-feather="search"></i></div>
+                            <input class="form-control input" name="q" type="text" placeholder="Explore Here..." tabindex="-1" data-search="search" />
+                            <div class="search-input-close"><i data-feather="x"></i></div>
+                        </div>
+                    </li>
+                </form>
+                <div class="vr mx-50"></div>
+                    <li class="nav-item dropdown dropdown-user">
+                        <a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="user-nav d-sm-flex d-none"><span class="user-name fw-bolder text-uppercase">HandraMz guest</span><span class="user-status">ONLINE</span></div>
+                            <span class="avatar"><img class="round" src="images/icon.jpg" alt="avatar" height="40" width="40"><span class="avatar-status-online"></span></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
+                            <a class="dropdown-item" href="user/login.html"><i class="me-50" data-feather="log-in"></i> Login</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="user/register.html"><i class="me-50" data-feather="user-plus"></i> Register</a>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-menu menu-fixed menu-dark menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item me-auto">
+                    <a class="navbar-brand" href="dashboard.html">
+                        <h2 class="brand-text">HandraMz</h2>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
+                </a>
+                </li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class="nav-item"><a class="d-flex align-items-center" href="dashboard.html">
+                <i class="fas fa-home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="pricing.html">
+                <i class="fas fa-dollar-sign"></i><span class="menu-title text-truncate">Pricing</span></a></li>
+                <li class=" navigation-header"><span data-i18n="Apps &amp; Pages">MAIN APIS</span><i data-feather="more-horizontal"></i></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="islami.html">
+                <i class="fas fa-mosque"></i><span class="menu-title text-truncatse">Islami</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="downloader.html">
+                <i class="fas fa-download"></i><span class="menu-title text-truncate">Downloader</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="webzone.html">
+                <i class="fas fa-broadcast-tower"></i><span class="menu-title text-truncate">Webzone</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="textprome.html">
+                <i class="fas fa-pen-fancy"></i><span class="menu-title text-truncate">Textpro</span></a></li>
+                    <li class="nav-item active"><a class="d-flex align-items-center" href="photoxy.html">
+                <i class="fas fa-pen-fancy"></i><span class="menu-title text-truncate">Photooxy</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="ephoto.html">
+                <i class="fas fa-pen-fancy"></i><span class="menu-title text-truncate">Ephoto</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="searching.html">
+                <i class="fas fa-search"></i><span class="menu-title text-truncate">Searching</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="anime.html">
+                <i class="fas fa-paw"></i><span class="menu-title text-truncate">Anime Web</span></a></li>
+                <li class=" nav-item">
+                    <a class="d-flex align-items-center" href="#"><i data-feather="file-text"></i><span class="menu-title text-truncate" data-i18n="Invoice">Nekos Life</span></a>
+                    <ul class="menu-content">
+                            <li><a class="d-flex align-items-center" href="animesfw.html">
+                        <i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="List">SFW Image</span></a>
+                            <li><a class="d-flex align-items-center" href="animensfw.html">
+                        <i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">NSFW Image</span></a>
+                    </ul>
+                </li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="morensfw.html">
+                <i class="fas fa-heartbeat"></i><span class="menu-title text-truncate">More Nsfw</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="randomimage.html">
+                <i class="fas fa-images"></i><span class="menu-title text-truncate">Random Image</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="randomtext.html">
+                <i class="fas fa-paragraph"></i><span class="menu-title text-truncate">Random Text</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="information.html">
+                <i class="fas fa-info-circle"></i><span class="menu-title text-truncate">Information</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="news.html">
+                <i class="fas fa-newspaper"></i><span class="menu-title text-truncate">News</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="entertainment.html">
+                <i class="fas fa-play-circle"></i><span class="menu-title text-truncate">Entertainment</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="photoeditor.html">
+                <i class="fas fa-adjust"></i><span class="menu-title text-truncate">Photo Editor</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="creator.html">
+                <i class="fas fa-plus"></i><span class="menu-title text-truncate">Creator</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="primbon.html">
+                <i class="fas fa-user-shield"></i><span class="menu-title text-truncate">Primbon</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="stalker.html">
+                <i class="fas fa-user-check"></i><span class="menu-title text-truncate">Stalker</span></a></li>
+                    <li class="nav-item"><a class="d-flex align-items-center" href="other.html">
+                <i class="fas fa-archive"></i><span class="menu-title text-truncate">Other</span></a></li>
+                <div class="flex-column-auto pt-3 text-center fw-bolder">#HandraMz</div>
+            </ul>
+        </div>
+    </div>
+    <div class="app-content content ">
+        <div class="content-wrapper container-xxl p-0">
+            <div class="content-body">
+                <section id="dashboard-analytics">
+                    <div class="row" id="table-hover-row">
+	<div class="col-12">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title text-uppercase">photoxy feature</h4>
+			</div>
+			<div class="table-responsive">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>features</th>
+							<th>method</th>
+							<th>DESCRIPTION</th>
+							<th class="text-center">PARAMS / QUERY</th>
+							<th class="text-center">STATUS</th>
+							<th class="text-center rounded-end">URL</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Shadow Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po9">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po9">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/08/15/5b74304c28ffe5b7433268f3d9_a3b8711b5ac27324686c5d8f8c9debb7.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/shadow_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Romantic Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po10">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po10">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/08/08/5b694b0d3e4965b6aee5b24b29_da87192454fd950733c9e6dc6636578e.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/romantic_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Smoke Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po11">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po11">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/08/06/5b67db49efbd75b67dce75fe2f_86f1cf73529f5fdce394f47d5cba0f31.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/smoke_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Burn Papper Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po12">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po12">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/08/04/5b65151fef6965b65153c82708_52ea30d420d34d19326001c74a2205b3.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/burnpapper_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Naruto Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po15">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po15">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/06/27/icon5b339fc76cbcc_4c4ef03487f52893bf41f72e814b6906.png" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/naruto_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Love Message Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po13">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po13">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/06/25/5b311767e24b85b31183cdfd29_1078fa6de0528044c2e6e64694be7947.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/lovemsg_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Grass Message Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po14">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po14">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/06/24/icon5b2f7313b06d7_8ed40bcd36c22cb492273c24c8cfdfb9.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/grassmsg_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Glitch Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po4">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po4">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/06/17/icon5b2543e07af18_67a6d25a8cd396e099d0a3b8108ea89f.png" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, text2, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/glitch_text_ZENZ_text2__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Love Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po18">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po18">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/06/09/5b195736288865b1bd170c4c63_b3366872c812991c86d4c6cbee611899.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/lovetext_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Coffe Cup Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po17">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po17">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/06/08/5b1956c65d7f35b1ab097ce0c7_bdaf44fb2605adb386aff14766f274d2.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/coffecup_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Gif Rain</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po6">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po6">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2018/05/13/icon5af806dbabc76_982a5159c3e937e4ddd65a8438dfce2f.gif" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">image, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/gifrain_v_4_apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Google Suggest</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po1">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po1">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2017/11/21/icon5a139474e8442_1c49eb700c0f443808cb59e22a9ada36.png" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, text2, text3, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/googlesuges_text__text2__text3__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Butterfly Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po19">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po19">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2017/09/04/icon59ad714dba3d3_746af5220b0662329673f939ac7d9749.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/butterfly_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Harry Potter Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po7">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po7">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="images/thumb5923744035880_f1778ae7a47cd703743ab0e6d3cee7e459a2510169844_243cb562ff7c519fec43a5c315dac9d0_knzs3emqwak6ueivzewfp3.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/harrypotter_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Battlefield Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po2">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po2">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="images/14/battlefield-4-rising-effect5e951aaccaa18_34135269e71307475482f3f9183c2048.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, text2, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/battlefield_text_ZENZ_text2__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Lol Glitch Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po8">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po8">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2020/04/14/avatar-lol5e95187d46142_641ff53677d93da718156c27611011a0.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/retrolol_text__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Pubg Text</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po3">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po3">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2019/02/19/banner-pubg-750-min5c6bc73c9357c_87e75f1316c8945776325fc5469542ef.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">text, text2, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/pubg_text_ZENZ_text2__apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Gta Poster</td>
+							<td>GET</td>
+							<td>
+								<button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#po5">Preview</button>
+								<div class="modal fade" tabindex="-1" id="po5">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-body text-center">
+												<img src="uploads/w450/2017/05/25/actual_13649061945926598787cbb_ac95f9f7cf72fcf068d16e111c218e5c.jpg" alt="image" class="w-100 rounded" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td class="text-center">image, apikey</td>
+							<td class="text-center">
+								<span class="badge bg-success fs-7 fw-bolder">active</span>
+							</td>
+							<td class="text-center">
+								<a type="button" class="text-success btn-sm btn-icon" href="photooxy/gtaposter_v_4_apikey_APIKEY.html" target="_blank">
+								<i data-feather='play'></i>
+								</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </style>
+    <footer class="footer footer-static footer-light fixed-bottom ">
+        <div class="copyright text-center float-md-end d-md-block"> made with <i data-feather="heart"></i> by <a href="https://t.me/HandraMz" target="_blank" rel="nofollow">zen</a>
+            </span>
+        </div>
+    </footer>
+    <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+    <script src="vendors/js/vendors.min.js"></script>
+    <script src="vendors/js/extensions/toastr.min.js"></script>
+    <script src="vendors/js/forms/validation/jquery.validate.min.js"></script>
+    <script src="vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script src="vendors/js/forms/cleave/cleave.min.js"></script>
+    <script src="js/core/app-menu.min.js"></script>
+    <script src="js/core/app.min.js"></script>
+    <script src="js/scripts/extensions/ext-component-toastr.min.js"></script>
+    <script src="js/scripts/pages/page-profile.min.js"></script>
+    <script src="js/scripts/customizer.min.js"></script>
+    <script src="js/scripts/pages/page-account-settings-account.min.js"></script>
+    <script>
+    $(window).on('load', function() {
+        if (feather) {
+            feather.replace({
+                width: 14,
+                height: 14
+            });
+        }
+    })
+    </script>
+    <script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
+</body>
+</html>
